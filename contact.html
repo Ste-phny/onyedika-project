@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact Page</title>
+    <style>
+        .contact-content {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .contact-content h2 {
+            text-align: center;
+            color: #1b263b;
+            margin-bottom: 10px;
+        }
+
+        .contact-content p {
+            margin-bottom: 10px;
+        }
+
+        .contact-content form {
+            background-color: #1b263b;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+        }
+
+        .contact-content form input {
+            margin-bottom: 30px;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .contact-content form textarea {
+            height: 20vh;
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        .contact-content form button {
+            width: 15%;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            background-color: #2a9d8f;
+        }
+
+        .contact-content form button:hover {
+            background-color: #e9c46a;
+            cursor: pointer;
+        }
+
+        @media only screen and (max-width:650px) {
+            .contact-content form button {
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>My Hobbies</h1>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="contact-content">
+        <h2>Contact Me</h2>
+        <p>Hi There, Feel free to send a message if you share any of these hobbies or would like to discuss them.</p>
+        <form>
+            <input type="text" placeholder="Please enter your name">
+            <input type="email" placeholder="Please enter your email">
+            <textarea name="" id="" placeholder="Type your message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <hr>
+    <span>2026 My Hobbies Website</span>
+</footer>
+
+</html>
